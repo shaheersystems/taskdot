@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 function Sidebar() {
   return (
-    <div className="sidebar sticky top-0 w-64 h-screen border-r border-slate-200 flex flex-col justify-between py-5 font-normal">
+    <div className="sidebar bg-white -translate-x-full lg:-translate-x-0 fixed w-64 h-screen border-r border-slate-200 flex flex-col justify-between py-5 font-normal">
       <div className="w-full space-y-4">
         <div>
           <img className="h-16" src={logo} alt="taskdot-logo" />
@@ -34,7 +34,7 @@ function Sidebar() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
